@@ -218,11 +218,11 @@
     }
     
     .dead-pieces{
-        max-height: 250px;
+        max-height: 270px;
     }
 
     .dead-pieces-square{
-        height: 120px;
+        height: 135px;
         font-size: 80px;
         line-height: 100px;
     }
