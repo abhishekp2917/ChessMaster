@@ -154,7 +154,7 @@
 
 
 /* ---------------------------------------chess board---------------------------------------------- */
-#chess-board{
+#chess-board>div{
     border:5px solid rgb(18, 65, 7);
     background-color:rgb(207, 245, 151);
     cursor: pointer;
@@ -175,15 +175,14 @@
 @media (min-width: 200px) {
     
     #chess-board{
-        height: 100vw;
         width: 100vw;
     }
 
     .square{
-        height: 95px !important;
-        max-height: 95px !important;
+        height: 110px !important;
+        max-height: 110px !important;
         font-size: 70px !important;
-        line-height: 80px !important;
+        line-height: 100px !important;
     }
 
     .setting-container{
@@ -219,12 +218,35 @@
     }
     
     .dead-pieces{
-        max-height: 170px;
+        max-height: 250px;
+    }
+
+    .dead-pieces-square{
+        height: 120px;
+        font-size: 80px;
+        line-height: 100px;
     }
 
     #chess-board{
-        max-height: 770px;
+        max-height: 1200px;
     }
+
+    .image-container img{
+        max-width: 140px;
+    }
+
+    .player-info .username{
+        font-size: 30px;
+    }
+    
+    .player-info .score{
+        font-size: 30px;
+    }
+    
+    .timer{
+        font-size: 30px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -238,7 +260,7 @@
         height: 63px !important;
         max-height: 63px !important;
         font-size: 50px !important;
-        line-height: 60px !important;
+        line-height: 50px !important;
     }
 
     .setting-container{
@@ -277,8 +299,30 @@
         max-height: 100vh;
     }
 
+    .dead-pieces-square{
+        height: 87px;
+        font-size: 50px;
+        line-height: 70px;
+    }
+
     #chess-board{
         max-height: 100vh;
+    }
+
+    .image-container img{
+        max-width: 100px;
+    }
+
+    .player-info .username{
+        font-size: 15px;
+    }
+    
+    .player-info .score{
+        font-size: 15px;
+    }
+    
+    .timer{
+        font-size: 15px;
     }
 }
 
