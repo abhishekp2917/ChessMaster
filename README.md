@@ -6,7 +6,7 @@ A computerized Chess game project using vanilla Javascript. In this game user pa
 
 ![Screenshot (111)](https://user-images.githubusercontent.com/87487929/173384726-d8e31a41-e17d-484c-9b04-dc1ef2713ee1.png)
 
-### Chess board :
+### Chess board GUI :
 
 ![Screenshot (112)](https://user-images.githubusercontent.com/87487929/173384943-9bfd4dc5-2f96-44a9-aca1-1e529e9f940c.png)
 
